@@ -1,0 +1,17 @@
+{
+  "name": "neverland-database",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:dollars0427/count-words.git",
+  "author": "Sardo <sardo.ip@sardo.work>",
+  "license": "MIT",
+  "dependencies": {
+    "@koa/cors": "2",
+    "koa": "^2.5.3",
+    "koa-body": "^4.0.4",
+    "koa-bodyparser": "^4.2.1",
+    "koa-log4": "^2.3.0",
+    "letter-count": "^2.8.9",
+    "textract": "^2.4.0"
+  }
+}
