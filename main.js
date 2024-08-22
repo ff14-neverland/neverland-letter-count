@@ -34,7 +34,6 @@ app.use(async ctx => {
   ctx.set('Content-Type', 'application/json; charset=utf-8');
   const filesKeys = Object.keys(files);
   let totalCount = 0;
-  const funList = [];
   for(let i = 0; i < filesKeys.length; i++){
     const fileKey = filesKeys[i];
     const filePath = files[fileKey].path;
