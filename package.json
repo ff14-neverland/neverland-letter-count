@@ -2,6 +2,7 @@
   "name": "neverland-database",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "repository": "git@github.com:dollars0427/count-words.git",
   "author": "Sardo <sardo.ip@sardo.work>",
   "license": "MIT",
@@ -12,6 +13,7 @@
     "koa-bodyparser": "^4.2.1",
     "koa-log4": "^2.3.0",
     "letter-count": "^2.8.9",
+    "office-text-extractor": "^3.0.3",
     "textract": "^2.4.0"
   }
 }
